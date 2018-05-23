@@ -1,0 +1,65 @@
+#fieldset{
+	border:1px solid black;
+	padding:10px;
+	border-radius: 15px;
+}
+.label{
+	color:green;
+	font-size:20px;
+	margin:auto;
+	text-align:center;
+
+
+}
+
+.form-control{
+	border:1px solid black;
+	font-size:20px;
+	text-align:center;
+	display:inline-block;
+	margin-bottom:10px;
+	padding:10px;
+	width:70%;
+	position:absolute;
+	right:20px;
+
+}
+
+.table{
+	color:black;
+	font-size:25px;
+	border:1px solid black;
+	padding:10px;
+	border-top:1px solid black;
+}
+
+.table-row{
+	color:black;
+	font-size:20px;
+	font-family: arial;
+	margin:10px;
+	border:1px solid black;
+
+
+}
+.table-row td{
+	color:black;
+	border:1px solid black;
+	
+	
+
+}
+
+.table-row th{
+	color:black;
+	font-size:30px;
+	margin:10px;
+	border:1px solid black;
+	text-align:center;
+
+
+}
+
+.id-data{
+	width:5%;
+}

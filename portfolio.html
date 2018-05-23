@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christy Store for all sports products</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" />	
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <script type="text/javascript" src='js/drag.js'></script>
+    
+  </head>
+  <body>
+	<header>		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navigation">
+				<div class="container">					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="navbar-brand">
+							<a href="index.html"><h1><span>Christy</span>sports Store</h1></a>
+						</div>
+					</div>
+					
+					<div class="navbar-collapse collapse">							
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation"><a href="index.html">Home</a></li>
+								<li role="presentation"><a href="about.html">About Us</a></li>
+								<li role="presentation"><a href="services.html">Services</a></li>								
+								<li role="presentation"><a href="portfolio.html" class="active">Our products</a></li>
+								
+								<li role="presentation"><a href="contact.html">Contact</a></li>	
+								<li role="presentation"><a href="login.html">Login</a></li>						
+							</ul>
+						</div>
+					</div>						
+				</div>
+			</div>	
+		</nav>		
+	</header>
+
+    <main>
+        <div id="breadcrumb">
+            <div class="container"> 
+                <div class="breadcrumb">                            
+                    <li><a href="index.html">Home</a></li>
+                    <li>Our products</li>           
+                </div>      
+            </div>  
+        </div>
+
+        <div >
+        	<section id="shopping-cart" style="width:20%;float:right;">
+        		<P>Shopping Cart</P>
+        		<ul>
+        			
+        		</ul>
+        	</section>
+        	<section id="portfolio" style="width:75%;float: left;margin-right:5px">    
+	            <div class="container">
+	                <div class="center">
+	                   <p class="text">Choose Your Currency</p>
+	                   <select id="currency">
+	                        <option value="Euro">Euro</option>
+	                        <option value="Dollar">Dollar</option>
+	                        <option value="Pound">Pound</option>
+	                        <option value="Riyal">Riyal</option>
+
+	                    </select>
+	                    <p id="current-currency" class="text">The prices in Euro Currency</p>
+	                </div>
+
+	                <ul class="portfolio-filter text-center">
+	                    <li><a class="btn btn-default active" href="#" data-filter="*">All products</a></li>
+	                    <li><a class="btn btn-default" href="#" data-filter=".bootstrap">recommended products</a></li>
+	                    <li><a class="btn btn-default" href="#" data-filter=".html">high rating</a></li>
+	                    <li><a class="btn btn-default" href="#" data-filter=".wordpress">Best sells</a></li>
+	                </ul><!--/#portfolio-filter-->
+	            </div>
+	            <div class="container">
+	                <div class="">
+	                    <div class="portfolio-items">
+	                        <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Classic ball" price='100€'>
+	                                <img class="img-responsive" src="products/clasic ball.jpg" alt="clasic ball">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner" >
+	                                        <h3 class="product-name">Classic ball</h3>
+	                                        <p class="product-drscription">
+	                                            classic ball from the brand Nike
+	                                        </p>
+	                                        <p class="product-price" id="product1">
+	                                            100 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/clasic ball.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Nike Ball" price='70€'>
+	                                <img class="img-responsive" src="products/ball.jpg" alt="ball">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Nike Ball</h3>
+	                                        <p class="product-drscription">
+	                                            origional ball from the brand Nike
+	                                        </p>
+	                                        <p class="product-price" id="product2">
+	                                            70 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/ball.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="T-shirt liverpool" price='85€'>
+	                                <img class="img-responsive" src="products/liverkit.jpg" alt="liverkit">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">T-shirt liverpool</h3>
+	                                        <p class="product-drscription">
+	                                            new season kit for liverpool
+	                                        </p>
+	                                        <p class="product-price" id="product3">
+	                                            85 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/liverkit.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>        
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="T-shirt Bayern" price='90€'>
+	                                <img class="img-responsive" src="products/bayernkit.jpg" alt="bayernkit">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">T-shirt Bayern</h3>
+	                                        <p class="product-drscription">
+	                                            new season kit for liverpool
+	                                        </p>
+	                                        <p class="product-price" id="product4">
+	                                            90 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/bayernkit.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>           
+	                        </div><!--/.portfolio-item-->
+	              
+	                        <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Man united t-shirt" price='70€'>
+	                                <img class="img-responsive" src="products/mankit.jpg" alt="">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Man united t-shirt</h3>
+	                                        <p class="product-drscription">New season kit for man united</p>
+	                                        <p class="product-price" id="product5">
+	                                            70 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/mankit.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>      
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="T-shirt newcastle" price='75€'>
+	                                <img class="img-responsive" src="products/nwecastle.jpg" alt="">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">T-shirt newcastle</h3>
+	                                        <p class="product-drscription">New season kit for newCastle</p>
+	                                        <p class="product-price" id="product6">
+	                                            75 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/nwecastle.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>         
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="New boots from Nike" price='120€'>
+	                                <img class="img-responsive" src="products/boots.jpeg" alt="">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Football Boots</h3>
+	                                        <p class="product-drscription">New boots from Nike</p>
+	                                        <p class="product-price" id="product7">
+	                                            120 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/boots.jpeg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="basketball collection" price='500€'>
+	                                <img class="img-responsive" src="products/basket.jpg" alt="basket">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">basketball collection</h3>
+	                                        <p class="product-drscription">
+	                                            all basketball products for women
+	                                        </p>
+	                                        <p class="product-price" id="product8">
+	                                            500 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/basket.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Ancle-brace" price='50€'>
+	                                <img class="img-responsive" src="products/ancle-brace.jpg" alt="ancle-brace">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Ancle-brace</h3>
+	                                        <p class="product-drscription">
+	                                            ancle-brace for handball players 
+	                                        </p>
+	                                        <p class="product-price" id="product9">
+	                                            50 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/ancle-brace.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Diving suit" price='100€'>
+	                                <img class="img-responsive" src="products/A0701.jpg" alt="diving suit">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Diving suit </h3>
+	                                        <p class="product-drscription">
+	                                            high copy from Nike
+	                                        </p>
+	                                        <p class="product-price" id="product10">
+	                                            100 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/A0701.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Net Ball" price='55€'>
+	                                <img class="img-responsive" src="products/Sharni-Layton-Match-Netball-Green_Pink-1.jpg" alt="net ball">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Net Ball</h3>
+	                                        <p class="product-drscription">
+	                                            Netball-Green_Pink from Nike
+	                                            
+	                                        </p>
+	                                        <p class="product-price" id="product11">
+	                                            55 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/Sharni-Layton-Match-Netball-Green_Pink-1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Trimpoline" price='80€'>
+	                                <img class="img-responsive" src="products/trampoline.jpg" alt="trampoline">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Trimpoline</h3>
+	                                        <p class="product-drscription">
+	                                            Action Curved 12ft Trampoline
+	                                        </p>
+	                                        <p class="product-price" id="product12">
+	                                            80 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/trampoline.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Rotating-seesaw" price='250€'>
+	                                <img class="img-responsive" src="products/p-958-52865-action-4-player-rotating-seesaw_220x207.jpg" alt="rotating-seesaw">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Rotating-seesaw</h3>
+	                                        <p class="product-drscription">
+	                                            Action 4 Player Rotating Seesaw
+	                                        </p>
+	                                        <p class="product-price" id="product13">
+	                                            250 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/p-958-52865-action-4-player-rotating-seesaw_220x207.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Hummel Authentic" price='65€'>
+	                                <img class="img-responsive" src="products/Hummel Authentic Charge Poly Shirt Men.jpg" alt="Hummel Authentic Charge Poly Shirt ">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Hummel Authentic</h3>
+	                                        <p class="product-drscription">
+	                                             Charge Poly Shirt Men
+	                                        </p>
+	                                        <p class="product-price" id="product14">
+	                                            65 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/Hummel Authentic Charge Poly Shirt Men.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Tennis racket" price='45€'>
+	                                <img class="img-responsive" src="products/58e.jpg" alt="">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Tennis racket</h3>
+	                                        <p class="product-drscription">
+	                                             from the brand Nike
+	                                        </p>
+	                                        <p class="product-price" id="product15">
+	                                            45 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/58e.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+
+	                        <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3" style="width:23%">
+	                            <div class="recent-work-wrap" id="Knee pads" price='85€'>
+	                                <img class="img-responsive" src="products/Rehband Handball knee pads men.jpg" alt="knee pads">
+	                                <div class="overlay">
+	                                    <div class="recent-work-inner">
+	                                        <h3 class="product-name">Knee pads</h3>
+	                                        <p class="product-drscription">
+	                                            Rehband Handball knee pads men
+	                                        </p>
+	                                        <p class="product-price" id="product16">
+	                                            85 &euro;
+	                                        </p>
+	                                        <a class="preview" href="products/Rehband Handball knee pads men.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	                                    </div> 
+	                                </div>
+	                            </div>          
+	                        </div><!--/.portfolio-item-->
+	                        
+
+
+
+	                    </div>
+	                </div>
+	            </div>
+	        </section><!--/#portfolio-item-->
+        	
+        </div>
+
+        <div id="fix"></div>
+        
+        
+    </main>
+	
+	
+	
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="social-icon">
+					<div class="col-md-4">
+						<ul class="social-network">
+
+							<li><a href="http://facebook.com/christysports" class="fb tool-tip" title="Facebook" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+
+							<li><a href="http://twitter.com/christysports" class="twitter tool-tip" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+							<li><a href="https://plus.google.com/+christysports/posts" class="gplus tool-tip" title="Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+
+							<li><a href="https://www.linkedin.com/company/christy-sports" class="linkedin tool-tip" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+							<li><a href="http://www.youtube.com/user/ChristySportsTV" class="ytube tool-tip" title="You Tube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+						</ul>	
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-md-offset-4">
+					<div class="copyright">
+						&copy; Christy sports store Theme. All Rights Reserved.
+                        <div class="credits">
+                            this website was created at <time datetime="2017-07-24 21:11:20">2017-07-24 21:11:20</time>
+                        </div>
+					</div>
+				</div>						
+			</div>
+			<div class="pull-right">
+				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+			</div>
+		</div>
+	</footer>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+    <script>
+    	document.addEventListener('DOMContentLoaded',func,false)
+    </script>
+	<script src="js/jquery-2.1.1.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>  
+	<script src="js/wow.min.js"></script>
+	<script src="js/functions.js"></script>
+    <script src="js/products.js"></script>
+
+    
+    
+</body>
+</html>
